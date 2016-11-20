@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbCore.Domain", "Mongo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbCore.CrossCutting", "MongoDbCore.CrossCutting\MongoDbCore.CrossCutting.csproj", "{B47646F5-2376-4B81-A953-856F07082F50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbCore.Persistence", "MongoDbCore.Persistence\MongoDbCore.Persistence.csproj", "{FAC0E3F2-47C7-4391-ABEE-32F53A308BFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbCore.Business", "MongoDbCore.Business\MongoDbCore.Business.csproj", "{F8CB2EE2-CEA7-42BD-84E7-9E78BDF02F5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +38,14 @@ Global
 		{B47646F5-2376-4B81-A953-856F07082F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B47646F5-2376-4B81-A953-856F07082F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B47646F5-2376-4B81-A953-856F07082F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC0E3F2-47C7-4391-ABEE-32F53A308BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC0E3F2-47C7-4391-ABEE-32F53A308BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC0E3F2-47C7-4391-ABEE-32F53A308BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC0E3F2-47C7-4391-ABEE-32F53A308BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CB2EE2-CEA7-42BD-84E7-9E78BDF02F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CB2EE2-CEA7-42BD-84E7-9E78BDF02F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CB2EE2-CEA7-42BD-84E7-9E78BDF02F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CB2EE2-CEA7-42BD-84E7-9E78BDF02F5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +54,7 @@ Global
 		{AB839E83-C430-482E-9AAD-2EEA4F358D12} = {A7564961-645A-4F79-B1FF-BECAACA6A640}
 		{0363D3E1-C0AB-4664-AE21-F109A9950C4C} = {A7564961-645A-4F79-B1FF-BECAACA6A640}
 		{B47646F5-2376-4B81-A953-856F07082F50} = {A7564961-645A-4F79-B1FF-BECAACA6A640}
+		{FAC0E3F2-47C7-4391-ABEE-32F53A308BFF} = {A7564961-645A-4F79-B1FF-BECAACA6A640}
+		{F8CB2EE2-CEA7-42BD-84E7-9E78BDF02F5E} = {A7564961-645A-4F79-B1FF-BECAACA6A640}
 	EndGlobalSection
 EndGlobal
