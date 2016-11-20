@@ -6,6 +6,11 @@ namespace MongoDbCore.Domain
 {
     public abstract class BaseEntity
     {
+        public BaseEntity()
+        {
+            CreatedAt = DateTime.Now;
+        }
+
         public ObjectId Id { get; set; }
 
         [BsonElement(nameof(CreatedAt))]
