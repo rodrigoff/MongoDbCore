@@ -5,6 +5,13 @@ namespace MongoDbCore.Domain
 {
     public class User : BaseEntity
     {
+        public User(string username, string name, string email)
+        {
+            Username = username;
+            Name = name;
+            Email = email;
+        }
+
         [BsonElement(nameof(Username))]
         public string Username { get; set; }
 
