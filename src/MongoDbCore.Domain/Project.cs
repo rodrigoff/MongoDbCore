@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Driver;
 
 namespace MongoDbCore.Domain
 {
@@ -13,5 +14,7 @@ namespace MongoDbCore.Domain
 
         [BsonElement(nameof(Name))]
         public string Name { get; set; }
+
+        public MongoDBRef Team { get; set; }
     }
 }
