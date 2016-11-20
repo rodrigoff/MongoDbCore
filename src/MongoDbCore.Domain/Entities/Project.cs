@@ -1,14 +1,13 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Driver;
-using System.Collections.Generic;
 
-namespace MongoDbCore.Domain
+namespace MongoDbCore.Domain.Entities
 {
-    public class TeamMember : BaseEntity
+    public class Project : BaseEntity
     {
         [BsonConstructor]
-        public TeamMember(string name)
+        public Project(string name)
         {
             Name = name;
         }
@@ -16,6 +15,6 @@ namespace MongoDbCore.Domain
         [BsonElement(nameof(Name))]
         public string Name { get; set; }
 
-        public ICollection<MongoDBRef> Teams { get; set; }
+        public MongoDBRef Team { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 using MongoDB.Bson.Serialization.Attributes;
 using System;
 
-namespace MongoDbCore.Domain
+namespace MongoDbCore.Domain.Entities
 {
     public abstract class BaseEntity
     {
