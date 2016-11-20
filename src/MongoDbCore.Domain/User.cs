@@ -5,6 +5,7 @@ namespace MongoDbCore.Domain
 {
     public class User : BaseEntity
     {
+        [BsonConstructor]
         public User(string username, string name, string email)
         {
             Username = username;
